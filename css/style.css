@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+html{
+    --nav-color: #7f7f90;
+    --background-color: #ffffff;
+    --default-color: #212529;
+    --heading-color: #37373f;
+    --accent-color: #ce1212;
+    scroll-behavior: smooth;
+    scroll-padding-top: 90px;
+    --banner-bg: #f2f2f2;
+    --ff2:"Amatic SC", sans-serif;
+}
+
+.f2{ font-family: var(--ff2); }
+.book{ display: inline-block; background: var(--accent-color); color: var(--background-color); border-radius: 50px; border: none; text-decoration: none; padding: .5rem 1rem; }
+.btn-menu{ background: var(--accent-color); color: var(--background-color); border-radius: 5px; border: none; width: 40px; aspect-ratio: 1/1; }
+
+nav li{ margin: 0 1rem; }
+nav a{ display: inline-block; text-decoration: none; color: var(--nav-color); border-bottom: 2px solid transparent; padding: .5rem;}
+nav a.active{ border-bottom-color:var(--accent-color) ; }
+
+.hero{ background: var(--banner-bg); }
+.play{ display: inline-block; color: var(--accent-color); border-radius: 50px; border: none; text-decoration: none; padding: .5rem 1rem; }
+.play .fa{ vertical-align: middle;}
+
+
+main .h2{ font-size: 14px; color: var(--nav-color); }
+main .f2 span{ color: var(--accent-color); }
+.booktable{ border: 2px solid; text-align: center; padding: 1rem; }
+
+
+.why-us{ background: var(--banner-bg); }
+.bg-red{ background: var(--accent-color); color: var(--background-color);}
+.why-us section{ text-align: center; }
+
+.stats{ position: relative; padding: 120px 0; color: var(--background-color); text-align: center; }
+.stats::before{ content: ""; position: absolute; inset: 0; background: #0006; z-index: 1; }
+.stats img{ position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.stats .h2{ color: var(--background-color); font-size: 30px;}
+.stats p{ font-size: 18px; }
